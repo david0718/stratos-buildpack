@@ -93,5 +93,4 @@ echo "-----> Build time:"
 END_TIME=`date +%s`
 show_time $(($END_TIME - $START_TIME))
 
-chmod +x "./tmp/app/ui/core/favicon.ico"
-chmod +x "./tmp/app/ui/core/assets"
+chmod +x "/tmp"
